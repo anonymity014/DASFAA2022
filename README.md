@@ -3,7 +3,7 @@
 In this paper, we propose a counterfactual data augmentation approach for aspect sentiment classication (ASC), which is shown as below:
 
 <p>
-<img src="image/framework.PNG" width="800">
+<img src="https://github.com/anonymity014/DASFAA2022/blob/main/model.png" width="800">
 </p>
 
 Our augmentation method consists of three steps:
