@@ -3,7 +3,7 @@
 In this paper, we propose a counterfactual data augmentation approach for aspect sentiment classication (ASC), which is shown as below:
 
 <p>
-<img src="https://github.com/anonymity014/DASFAA2022/blob/main/model.png" width="800">
+<img src="https://github.com/anonymity014/DASFAA2022/blob/main/model.png" width="500">
 </p>
 
 Our augmentation method consists of three steps:
@@ -15,7 +15,8 @@ Our augmentation method consists of three steps:
 - Discrimination
 
 In this repo, we'll introduce the running of two modules: **discriminator** and **classifier**.The discriminator aims to train an aspect extraction model and the sentiment classification model is to test whether the generated sentences are reasonable, while the classifier retrains the generated sentences mixed with the source sentences.
-##Discriminator
+
+## Discriminator
 ### requirement 
 - Python 3.6
 - [Pytorch 1.1](https://pytorch.org/)
